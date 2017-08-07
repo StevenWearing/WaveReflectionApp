@@ -19,6 +19,11 @@ import wavepropagationsimulator.logic.*;
 /**
  *
  * @author steven
+ * 
+ * The Control Panel, within which the  
+ * user specifies the current rate of 
+ * expansion along with the current 
+ * probability of randomly generated waves
  */
 public class ControlPanel extends JPanel {
     

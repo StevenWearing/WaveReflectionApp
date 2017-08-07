@@ -8,6 +8,10 @@ package wavepropagationsimulator.logic;
 /**
  *
  * @author steven
+ * 
+ * Logic for the current state of
+ * any created waves and their
+ * movement behaviour
  */
 public class Wave {
     
@@ -15,9 +19,9 @@ public class Wave {
     private int y;
     private int diameter;
     private boolean original;
-    private boolean top;
-    private boolean bottom;
-    private boolean left;
+    private boolean top;        // Keeping track of whether wave was reflected from 
+    private boolean bottom;     // top/bottom/left/right border so as to avoid infinite 
+    private boolean left;       // creation instances
     private boolean right;
     private double blue;
     private double green;
@@ -27,10 +31,10 @@ public class Wave {
         this.x = x;
         this.y = y;
         this.diameter = d;
-        this.rate = rate;
+        this.rate = rate;    // Rate of expansion
         
-        this.original = true;
-        this.blue = 255;
+        this.original = true;  // true == not reflected wave, to avoid too many relfections
+        this.blue = 255;        // Initial (R)GB values
         this.green = 190;
     }
     
@@ -39,7 +43,7 @@ public class Wave {
     }
     
     public void decreaseColors() {
-        blue -= 1;
+        blue -= 1;                 //Darkening the (R)GB values
         green -= 1;
     }
     

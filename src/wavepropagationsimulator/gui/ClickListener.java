@@ -11,6 +11,9 @@ import java.awt.event.MouseEvent;
 /**
  *
  * @author steven
+ * 
+ * Mouse listener used to create a new wave
+ * originating at the tip of the mouse icon
  */
 public class ClickListener implements MouseListener {
     

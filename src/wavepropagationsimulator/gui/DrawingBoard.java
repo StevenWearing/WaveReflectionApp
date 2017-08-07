@@ -38,8 +38,8 @@ public class DrawingBoard extends JPanel implements Updatable {
                     continue;                  // waves, allowing 3 waves to emerge from one click
                 }
                 
-                if (wave.getGreen() >= 80 || wave.getBlue() >= 140) {
-                    g.setColor(new Color(0, wave.getGreen(), wave.getBlue()));
+                if (wave.getGreen() >= 80 || wave.getBlue() >= 140) {          // Only decrease colour if lighter than
+                    g.setColor(new Color(0, wave.getGreen(), wave.getBlue()));  // the backgound colour
                     wave.decreaseColors();
                 }
                 

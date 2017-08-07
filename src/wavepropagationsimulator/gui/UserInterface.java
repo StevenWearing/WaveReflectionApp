@@ -32,7 +32,7 @@ public class UserInterface implements Runnable {
     
     @Override
     public void run() {
-        frame = new JFrame("Wave Propagation Simulator");
+        frame = new JFrame("Wave Reflection Simulator");
         frame.setPreferredSize(new Dimension(width, height));
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         
