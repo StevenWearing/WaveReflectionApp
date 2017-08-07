@@ -68,9 +68,9 @@ public class ControlPanel extends JPanel {
         JPanel expansionInputPanel = new JPanel();
         expansionInputPanel.setBackground(new Color(140, 140, 140));
         
-        JLabel expansionLabel = new JLabel("Rate of expansion (e.g. < 10): ");
+        JLabel expansionLabel = new JLabel("Rate of expansion (e.g. < 5): ");  // > 5 becomes overly messy
         expansionLabel.setForeground(new Color(240, 240, 240));
-        rateOfExpansion = new JTextField("5");
+        rateOfExpansion = new JTextField("2");
         rateOfExpansion.setPreferredSize(new Dimension(50, 30));
         enterButton = new JButton("ENTER");
         enterButton.setBackground(new Color(180, 180, 180));

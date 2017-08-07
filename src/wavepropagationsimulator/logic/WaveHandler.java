@@ -37,7 +37,7 @@ public class WaveHandler extends Timer implements ActionListener {
         this.height = height;
         
         this.waves = new ArrayList<Wave>();
-        this.rate = 5;
+        this.rate = 2;
         this.rainP = 0;
         this.rnd = new Random();
     }
