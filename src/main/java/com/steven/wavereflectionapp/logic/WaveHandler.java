@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.steven.wavereflectionapp.logic;
+package main.java.com.steven.wavereflectionapp.logic;
 
-import com.steven.wavereflectionapp.gui.Updatable;
+import main.java.com.steven.wavereflectionapp.gui.Updatable;
 import javax.swing.Timer;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;

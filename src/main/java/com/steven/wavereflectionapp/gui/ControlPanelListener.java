@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.steven.wavereflectionapp.gui;
+package main.java.com.steven.wavereflectionapp.gui;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JRadioButton;
 import javax.swing.JButton;
 import javax.swing.JTextField;
-import com.steven.wavereflectionapp.logic.*;
+import main.java.com.steven.wavereflectionapp.logic.*;
 /**
  *
  * @author steven

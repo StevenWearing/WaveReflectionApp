@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.steven.wavereflectionapp.gui;
+package main.java.com.steven.wavereflectionapp.gui;
 
 import javax.swing.JPanel;
 import java.awt.Graphics;
@@ -15,7 +15,7 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 import java.awt.GridLayout;
 import javax.swing.ButtonGroup;
-import com.steven.wavereflectionapp.logic.*;
+import main.java.com.steven.wavereflectionapp.logic.*;
 /**
  *
  * @author steven

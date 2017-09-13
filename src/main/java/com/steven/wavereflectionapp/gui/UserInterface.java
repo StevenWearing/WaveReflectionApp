@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.steven.wavereflectionapp.gui;
+package main.java.com.steven.wavereflectionapp.gui;
 
 
-import com.steven.wavereflectionapp.logic.WaveHandler;
+import main.java.com.steven.wavereflectionapp.logic.WaveHandler;
 import java.awt.Container;
 import java.awt.Dimension;
 import javax.swing.JFrame;
@@ -34,6 +34,7 @@ public class UserInterface implements Runnable {
     public void run() {
         frame = new JFrame("Wave Reflection Simulator");
         frame.setPreferredSize(new Dimension(width, height));
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         
         createComponents(frame.getContentPane());

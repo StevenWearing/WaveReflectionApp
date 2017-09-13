@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.steven.wavereflectionapp.gui;
+package main.java.com.steven.wavereflectionapp.gui;
 
-import com.steven.wavereflectionapp.logic.WaveHandler;
+import main.java.com.steven.wavereflectionapp.logic.WaveHandler;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseEvent;
 /**

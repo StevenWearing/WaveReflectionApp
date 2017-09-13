@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.steven.wavereflectionapp.gui;
+package main.java.com.steven.wavereflectionapp.gui;
 
-import com.steven.wavereflectionapp.logic.WaveHandler;
-import com.steven.wavereflectionapp.logic.Wave;
+import main.java.com.steven.wavereflectionapp.logic.WaveHandler;
+import main.java.com.steven.wavereflectionapp.logic.Wave;
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.util.List;
